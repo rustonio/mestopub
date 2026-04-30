@@ -9,8 +9,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Mesto</title>
     
-    <script type="module" crossorigin src="./assets/index-6b68ee32.js"></script>
-    <link rel="stylesheet" href="./assets/index-e56e0837.css">
+    <script type="module" crossorigin src="./assets/index-8061e085.js"></script>
+    <link rel="stylesheet" href="./assets/index-f66e4a6e.css">
   </head>
   <body class="page">
     <div class="page__content">
@@ -174,9 +174,12 @@
       <div class="popup popup_type_info">
         <div class="popup__content popup__content_content_info">
           <button type="button" class="popup__close"></button>
-          <img class="popup__info-image" src="" alt="" />
-          <h3 class="popup__info-name"></h3>
+          <h3 class="popup__info-name">Информация о карточке</h3>
           <div class="popup__info-list"></div>
+          <div class="popup__likes-section">
+            <h4 class="popup__info-likes-title">Лайкнули</h4>
+            <div class="popup__info-likes"></div>
+          </div>
         </div>
       </div>
     </div>
@@ -209,7 +212,6 @@
 
     <template id="popup-info-user-preview-template">
       <li class="popup__list-item popup__list-item_type_badge">
-        <img class="popup__info-user-avatar" src="" alt="" />
         <span class="popup__info-user-name"></span>
       </li>
     </template>
